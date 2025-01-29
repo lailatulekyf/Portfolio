@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./packages/images/favicon.ico"
+      type="image/x-icon"
+    /> -->
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./packages/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+    <!-- email js -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("VvDFCv60mty5CvKQq");
+      })();
+    </script>
+
+    <!-- HTML Meta Tags -->
+    <title>Lailatul Eky Portfolio</title>
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:site_name"
+      content="Lailatul Eky Portfolio"
+    />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:image:type" content="image/webp" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-8710PKQN9T"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-8710PKQN9T");
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+
+      ga("create", "UA-200608746-1", "auto");
+      ga(
+        "send",
+        "pageview",
+        "myTracker.send",
+        "event",
+        "Video",
+        "play",
+        "cats.mp4"
+      );
+    </script>
+
+    <meta
+      name="google-site-verification"
+      content="fhyTdtqD_RstBjnzobeQOmCoX6O14NcjX5oEcvaBsMw"
+    />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-57MWG3P");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- MS Clarity -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "mkg8jw1rxf");
+    </script>
+  </head>
+
+  <body onload="preLoader()">
+    <!--==================== Loader ====================-->
+    <!-- <div id="loading"></div> -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-57MWG3P"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Lailatul Eky Fitriyaningsih</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link hover-underline">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link hover-underline">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link hover-underline">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link hover-underline">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link hover-underline">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <a
+            class="resume-button"
+            href="https://drive.google.com/file/d/1M4lKD6fnyim-GlEVfZWbjf8SDvTZpjHa/view?usp=sharing"
+            download="Lailatul-Eky-Resume"
+            title="download"
+            >Resume</a
+          >
+        </div>
+        <div class="nav__btns">
+          <i
+            class="uil uil-moon change-theme"
+            style="margin-left: 10px"
+            id="theme-button"
+            title="Theme"
+          ></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <!-- linkedin -->
+              <a
+                href="https://www.linkedin.com/in/lailatulekyf/"
+                target="_blank"
+                class="home__social-icon"
+                title="Linkedin"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <!-- github -->
+              <a
+                href="https://www.github.com/lailatulekyf/"
+                target="_blank"
+                class="home__social-icon"
+                title="GitHub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+
+              <!-- twitter -->
+              <!-- <a
+                href="https://instagram.com/lailatulekyf/"
+                target="_blank"
+                class="home__social-icon"
+                title="Twitter"
+              >
+                <i class="uil uil-twitter-alt"></i>
+              </a> -->
+
+              <!-- instagram -->
+              <!-- <a
+                href="https://lailatulekyf.github.io/linktree/"
+                target="_blank"
+                class="home__social-icon"
+                title="Linktree"
+              >
+                <i class="uil uil-external-link-alt"></i>
+              </a> -->
+            </div>
+
+            <div class="home__data">
+              <span style="font-size: 16px">Hi, my name is</span>
+              <h1 class="home__title">Lailatul Eky </h1>
+              <h3 class="home__subtitle">I analyze data & systems</h3>
+              <p class="home__description">
+                Experience in data and system analytics projects with a focus on data-driven problem-solving, 
+                optimizing processes, and supporting strategic decision-making. Skilled in analyzing business 
+                requirements, designing information architecture, and creating UML diagrams for efficient system 
+                development. Proficient in SQL, Excel, Power BI, Tableau, Looker Studio, and Enterprise Architect.
+              </p>
+              <a
+                href="#contact"
+                class="button button--flex home__button"
+                title="Contact me"
+              >
+                Contact Me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle"></span>
+
+        <div class="about__container container grid">
+          <img
+            src="packages/images/Group 1.png"
+            
+            class="about__img"
+          />
+          <div class="about__data">
+            <p class="about__description">
+              I'm an undergraduate Information Technology student with a strong passion for analytics, 
+              data-driven problem-solving, business strategy, and creating impactful visualizations to support 
+              decision-making. Experienced in analyzing business requirements, designing information architecture, 
+              and creating UML diagrams to drive efficient system development. Hands-on experience in data and system 
+              projects, proficient in SQL, Excel, Power BI, Tableau, Looker Studio, and Enterprise Architect.
+            </p>
+            <!-- <p class="about__description" style="margin-top: -30px">
+              Looking forward to sharpening my skills in a challenging
+              environment. I guarantee enthusiasm in work and fulfilling my
+              projects with inexpressible effort.
+            </p> -->
+            <div class="about__buttons">
+              <a
+                href="https://drive.google.com/file/d/1M4lKD6fnyim-GlEVfZWbjf8SDvTZpjHa/view?usp=sharing"
+                download="Lailatul-Eky-Resume"
+                class="button button--flex"
+                title="click to download"
+                >Resume<i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification__section">
+        <h2 class="section__title">Experiences</h2>
+        <span class="section__subtitle"></span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+            <!-- <div
+              class="qualification__button button--flex"
+              data-target="#work"
+            >
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div> -->
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== Education 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">University of Jember</h3>
+                  <span class="qualification__subtitle"
+                    >Undergraduate Information Technology</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Aug 2022 - Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== Education 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">RevoU Tech Academy</h3>
+                  <span class="qualification__subtitle"
+                    >Data Analytics</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Sep 2024 - Dec 2024
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <!-- <div
+              class="qualification__content qualification__active"
+              data-content
+              id="work"
+            > -->
+              <!--==================== Work 4 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Developer</h3>
+                  <span class="qualification__subtitle"
+                    >Mplify - Gandhinagar, Gujarat</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Jan 2023 - Present
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div> -->
+
+              <!--==================== Work 3 ====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Full Stack Web Developer</h3>
+                  <span class="qualification__subtitle"
+                    >Masai School - Bengaluru, Karnataka</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Apr 2022 - Dec 2022
+                  </div>
+                </div>
+              </div> -->
+
+              <!--==================== Work 2 ====================-->
+              <!-- <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer</h3>
+                  <span class="qualification__subtitle"
+                    >Uaguria Software - Contai, WB</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Sep 2020 - Feb 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div> -->
+
+              <!--==================== Work 1 ====================-->
+              <!-- <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Repub Member</h3>
+                  <span class="qualification__subtitle"
+                    >Patel G Tech LLP - Kolkata, WB</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Aug 2019 - Sep 2020
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technologies</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills__content skills__open">
+              <div class="skills__list grid">
+                <div class="tech__row">
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:postgresql"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">PostgreSQL<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: #4386FA" 
+                        icon="tabler:brand-google-big-query"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">BigQuery<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="devicon:googlecolab"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">Google Colab<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="devicon:sqldeveloper"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Oracle SQL<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: #65b743"
+                        icon="vscode-icons:file-type-excel"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Excel<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:microsoft-power-bi"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">Power BI<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="logos:tableau-icon"
+                        height="40"
+                        width="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">Tableau<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon 
+                      icon="logos:looker-icon" 
+                      height="40" 
+                      width="45">
+                      </iconify-icon
+                      >
+                      <h3 class="services__title">Looker<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <img 
+                        src="./packages/images/enterpirse.png" 
+                        alt="Enterprise Architect" 
+                        height="40" 
+                        width="90" 
+                      />
+                      <h3 class="services__title">Enterprise <br> Architect<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-drawio"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">Draw.io<br /></h3>
+                    </div>
+                  </div>                  
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="devicon:figma"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">Figma<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-html"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">HTML<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-css"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">CSS<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="devicon:php"
+                        height="40"
+                      ></iconify-icon>
+                      <h3 class="services__title">PHP<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        style="color: #1f1e1e"
+                        icon="ant-design:github-filled"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">GitHub<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon
+                        icon="vscode-icons:file-type-vscode"
+                        height="40"
+                        width="35"
+                      ></iconify-icon>
+                      <h3 class="services__title">VsCode<br /></h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Projects ====================-->
+      <section class="services section" id="projects" style="margin-top: 50px">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">My recent works</span>
+
+        <div class="services__container container grid">
+
+          <!--==================== Project 2 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/smarthydro.jpg"
+                  alt="SmartHydro"
+                  title="SmartHydro"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">SmartHydro - Software Architecture</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Developed a mobile app for IoT hydroponic systems, gathering requirements, creating UML diagrams, and designing the UI. 
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Enterprise Architect &nbsp;|&nbsp; Figma 
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://docs.google.com/document/d/1t-0fFI2C-xmPRLrqNhMa1gPN8Yemfo3E4uMDGERmwYc/edit?tab=t.0"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 2 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/trubus.jpg"
+                  alt="Trubus"
+                  title="Trubus"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Trubus - Software Requirement Spesification</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Created the Software Requirement Spesification for the Trubus website, defining requirements and system design. 
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Figma 
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://drive.google.com/file/d/1IY7685zw9OBf1bQQx3K_LK2lIZaFksNT/view?usp=sharing"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 6 ====================-->
+
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/maventoys.jpg"
+                  width="100px"
+                  alt="Mexico-Toys-Analysis"
+                  title="Mexico-Toys-Analysis"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Mexico Toys Analysis</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Analyzed Mexico Toys dataset to strategize a 
+                  20% profit increase, 5-10% sales growth, and 5% store profit improvement.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Spreadsheet &nbsp;|&nbsp; BigQuery &nbsp;|&nbsp; PowerBI
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.canva.com/design/DAGdX24sxXs/d0NDbu-FF25u5Nyj8jyCpQ/edit?utm_content=DAGdX24sxXs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  title="Presented"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 3 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/database kalisat.jpg"
+                  alt="Database-Kalisat-Hospital"
+                  title="Database-Kalisat-Hospital"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Database for Kalisat Hospital</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Developed a relational database for Kalisat Hospital using SQL to improve data management and efficiency.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Oracle SQL Dev &nbsp;|&nbsp; PostgreSQL
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://drive.google.com/file/d/1tr9t97BKTcri6LAX7qJDND5yUz0taw1y/view?usp=sharing"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 1 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/beecycle.jpg"
+                  alt="Bee-Cycle-Analysis"
+                  title="Bee-Cycle-Analysis"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Bee Cycle Analysis</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Analyzed Bee Cycle dataset to identify key 
+                  trends and develop strategies to achieve a 
+                  15% year-over-year profit increase.
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Spreadsheet &nbsp;|&nbsp; Tableau 
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.canva.com/design/DAGaFwX0RqE/6XZzmMBlsTUcs3O17RYPsg/edit?utm_content=DAGaFwX0RqE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 5 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/northwind.jpg"
+                  alt="Northwind"
+                  title="Northwind"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Northwind Analysis</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Conducted SQL analysis on the Northwind database to gain insights and optimize business operations.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  PostgreSQL 
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.canva.com/design/DAGbVdk7jh8/Z0742X12FQPezn61PGrDcA/edit?utm_content=DAGbVdk7jh8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 5 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-img">
+                <img
+                  src="./packages/images/super store.jpg"
+                  alt="Super Store"
+                  title="Super Store"
+                />
+              </div>
+              <div class="project-title">
+                <h3 class="title" title="Title">Super Store Analysis</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  Analyzed the Super Store dataset to identify key product trends and insights, visualizing findings for better decision-making.
+                </p>
+              </div>
+              <div class="project-tech">
+                <p title="Tech Stack">
+                  Collab Python &nbsp;|&nbsp; Looker Studio
+                </p>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://www.canva.com/design/DAGda5hWC8I/72rOK9mZ0t7r6-VArhmBMw/edit?utm_content=DAGda5hWC8I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  title="Live Preview"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                  Report
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-linkedin-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://www.linkedin.com/in/lailatulekyf"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open linkedin"
+                >
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contatc__subtitle">@lailatulekyf</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://github.com/lailatulekyf/"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open github"
+                >
+                  <h3 class="contact__title">GitHub</h3>
+                  <span class="contatc__subtitle">@lailatulekyf</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <a
+                  class="hover-underline"
+                  href="mailto:lailatulekyf@gmail.com"
+                  style="color: #6a797c"
+                  title="click to send email"
+                >
+                  <h3 class="contact__title">E-mail</h3>
+
+                  <span class="contatc__subtitle"
+                    >lailatulekyf@gmail.com</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form grid" id="contact-form">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" id="name" required />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">E-mail</label>
+                <input
+                  type="email"
+                  class="contact__input"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                required
+                id="message"
+                class="contact__input"
+                title="Please fill out the this field."
+              ></textarea>
+            </div>
+
+            <p
+              style="font-size: 12px; margin-top: -15px"
+              title="Put your mail only"
+            >
+              <span style="color: #57c9e0">* </span> You'll get a confirmation
+              email after sending.
+            </p>
+            <div>
+              <button
+                id="email-submit"
+                class="button button--flex"
+                style="
+                  outline: none;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 16px;
+                  font-weight: 500;
+                  font-family: Poppins, sans-serif;
+                "
+                title="Send message"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <p class="footer__copy">
+          2025 Portfolio Lailatul Eky
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+  </body>
+</html>
